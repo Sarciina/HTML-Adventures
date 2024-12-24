@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--It ensures that characters such as symbols are displayed correctly on the page.
+            without it, browsers might display chars incorrectly-->
+        <meta charset="UTF-8">
+        <!--It's used to set the viewport size, which determines how the content fits on the screen.
+            initial-scale=1.0 -> This prevents browsers from zooming out or in by default.
+            content="width=device-width -> the size of the webpage = the size of the device's screen-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+        <title>My Page</title>
+    </head>
+    <body>
+        <h1>Hello to my page</h1>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
+            Molestias delectus ipsam, tenetur doloremque magni sint.<br>
+            Repudiandae at corrupti quibusdam tempora saepe assumenda veritatis aliquid facilis!<br> 
+            Vero eveniet obcaecati ullam velit?<br>
+            This text is both <b><u>bold and underlined</u></b>.<br> <!--for a bold txt, u can use either <b> or <strong>-->
+            <i>this is an italic txt.</i>
+        </p>
+
+        <!--unorderd list (bulleted ¤)-->
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+        <!--ordered list (numbered)-->
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ol>
+        
+        <p>This is the first section of content.</p>
+
+        <hr> <!-- ir's just a horizontal line -->
+
+        <p>This is the second section of content.</p>
+
+
+        <p>Click this link to visit <a href="https://www.google.com" target="_blank">google Website</a>.</p>
+
+        <h2>Image Example:</h2>
+        <!-- alt is used for making a txt appear in case the photo is not there.The txt usually describes the photo. -->
+        <img src="https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp"
+        alt="This is a small desc for my image" width="150">
+
+        <!-- <video> Tag: Video -->
+        <h2>Video Example:</h2>
+        <video width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- <audio> Tag: Audio -->
+        <h2>Audio Example:</h2>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+    </body>
+</html>
