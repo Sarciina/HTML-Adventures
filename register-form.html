@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <title>Register form</title>
+    </head>
+
+    <body>
+
+        <h1>My first form</h1>
+
+        <form action="#" method="post">
+
+            <!--user's name-->
+            <label for="name">Full name:</label>
+            <input type="text" id="name" name="user's name" placeholder="type here" required><br><br>
+
+            <!--user's age-->
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="user's age" min="0" max="30" required><br><br>
+
+            <!--user's major-->
+            <label for="major">What is you major?</label>
+            <input type="text" id="major" name="user's major" placeholder="type here" required><br><br>
+
+            <!--what year-->
+            <label for="year">What year are you in?</label>
+            <input type="text" id="year" name="year" placeholder="type here"><br><br>
+
+            <!--gender-->
+            <label for="gender">Gender:</label> 
+            <label for="XY">male</label>
+            <input type="radio" name="gender" id="XY">
+            <label for="XX">female</label>
+            <input type="radio" name="gender" id="XX"><br><br>
+
+            <!--fav color-->
+            <label for="color">Your fav color:</label>
+            <input type="color" id="color" name="color"><br><br>
+
+            <!--select-->
+            <label for="fruit">Select ur most fav fruit from the list:</label>
+            <select id="fruit" name="fruit">
+                <option value="1">orange</option>
+                <option value="2">strawberry</option>
+                <option value="3">apple</option>
+            </select><br><br>
+
+            <!--mystery gift-->
+            <button type="button" onclick="alert('U WON 1000$!!!')"><i>Click Me</i></button><br><br>
+
+            <!--write a msg-->
+            <label for="msg">Leave me a msg :3</label><br>
+            <textarea id="msg" name="msg" placeholder="type here" rows="3"></textarea><br><br>
+
+            <!--submit info-->
+            <input type="submit"><br><br>
+
+            <!--reset botton-->
+            <input type="reset">
+
+        </form>
+    </body>
+</html>
